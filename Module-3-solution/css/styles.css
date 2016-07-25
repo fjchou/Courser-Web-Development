@@ -68,17 +68,17 @@ h3.sec-title{
 
 @media (max-width: 767px){
 	.navbar-default .navbar-collapse{
-	background: #ddd;	
-	margin-top: 13px;
-}
+		background: #ddd;	
+		margin-top: 13px;
+	}
 
-.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:hover{
-	background: #F0F7F4;
-	font-color: #F0F7F4;
-}
+	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:hover{
+		background: #F0F7F4;
+		font-color: #F0F7F4;
+	}
 
-.navbar-default .navbar-toggle{
-	margin-top: 20px;
-	border: 1px #F0F7F4 solid;
-}
+	.navbar-default .navbar-toggle{
+		margin-top: 20px;
+		border: 1px #F0F7F4 solid;
+	}
 }
