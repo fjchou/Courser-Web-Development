@@ -1,0 +1,84 @@
+body {
+	font-size: 16px;
+	color: #000;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.navbar{
+	background: #32292F;
+	min-height: 80px;
+}
+.navbar-default .navbar-brand{
+	margin-top: 15px;
+	color: #F0F7F4;
+	font-size: 1.8em;
+	font-style: italic;
+}
+
+
+#page-title h2{
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #32292F;
+}
+
+.text-content{
+	background-color: #99E1D9;
+	padding: 5px 30px 10px 30px;
+	box-shadow: 0px 5px 5px 0px #70ABAF;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+h3.sec-title{
+	color: #705D56; 
+}
+
+.btn{
+	margin-top: 10px;
+}
+
+.btn-primary {
+    background: #F0F7F4;
+   	color: #70ABAF;
+}
+
+@media (min-width: 1200px){
+	.text-content{
+		height: 560px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+	.text-content{
+		height: 700px;
+	}
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.text-content{
+		height: 570px;
+	}
+
+	#sushi{
+		height: 270px;
+	}
+}
+
+@media (max-width: 767px){
+	.navbar-default .navbar-collapse{
+	background: #ddd;	
+	margin-top: 13px;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:hover{
+	background: #F0F7F4;
+	font-color: #F0F7F4;
+}
+
+.navbar-default .navbar-toggle{
+	margin-top: 20px;
+	border: 1px #F0F7F4 solid;
+}
+}
