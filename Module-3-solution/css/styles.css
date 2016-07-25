@@ -4,6 +4,11 @@ body {
 	font-family: 'Oxygen', sans-serif;
 }
 
+
+#main-content{
+	margin-top: 100px;
+}
+
 .navbar{
 	background: #32292F;
 	min-height: 80px;
@@ -46,23 +51,23 @@ h3.sec-title{
 
 @media (min-width: 1200px){
 	.text-content{
-		height: 560px;
+		height: 1000px;
 	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px){
 	.text-content{
-		height: 700px;
+		height: 1280px;
 	}
 }
 
 @media(min-width: 768px) and (max-width: 991px){
 	.text-content{
-		height: 570px;
+		height: 1050px;
 	}
 
 	#sushi{
-		height: 270px;
+		height: 460px;
 	}
 }
 
@@ -81,4 +86,6 @@ h3.sec-title{
 		margin-top: 20px;
 		border: 1px #F0F7F4 solid;
 	}
+
+
 }
